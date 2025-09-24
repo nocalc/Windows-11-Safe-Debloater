@@ -1,106 +1,77 @@
-⚡ Features
-1. App Removal
+# Windows 11 Safe Debloater 🖥️✨
 
+A **beginner-friendly Python GUI tool** to remove unnecessary bloatware, disable telemetry, and improve system performance on **Windows 11**.  
+Safe, flexible, and fully guided — every option includes a **tooltip** explaining what it does and whether it’s safe to remove.
+
+---
+
+## ⚡ Features
+
+### 1. App Removal
 Remove built-in apps that most users don’t need:
 
-Examples: Xbox, Solitaire, Paint 3D, Groove Music, Bing News, TikTok, Instagram.
+- **Xbox**, **Solitaire**, **Paint 3D**, **Groove Music**, **Bing News**, **TikTok**, **Instagram**, and more.
+- **Hover over each option** to see a tooltip explaining the app and whether it’s safe to remove.
+- Options are **selectable individually**, giving you full control.
 
-Each app has a tooltip explaining what it is and whether it’s safe to remove.
+---
 
-Options are selectable individually, so you only remove what you want.
-
-2. Service Disabling
-
+### 2. Service Disabling
 Optional disabling of Windows services to improve privacy and performance:
 
-Examples: Telemetry (DiagTrack), Offline Maps, Remote Registry, Fax.
+- **Telemetry (DiagTrack)**, **Offline Maps (MapsBroker)**, **Remote Registry**, **Fax**, etc.
+- Tooltips explain the function and impact of disabling each service.
+- Safe for beginners — services are optional.
 
-Tooltips explain what each service does and the potential impact of disabling it.
+---
 
-Safe for beginners — services are optional.
+### 3. Performance Tweaks
+Optional performance improvements:
 
-3. Performance Tweaks
+- **Visual Effects / Animations**  
+  Disables window animations, menu fade-ins, and live window dragging to make Windows feel faster.
 
-Visual Effects / Animations: Disables window animations, live window dragging, and menu fade-ins to make Windows feel snappier.
+- **Search / Indexing Optimization**  
+  Stops Windows Search indexing to reduce CPU and disk usage. May slow file searches.
 
-Search / Indexing Optimization: Stops Windows Search indexing to reduce CPU and disk usage.
+> ⚠️ Optional only — no tweaks are applied unless you explicitly select them.
 
-Optional only — users must explicitly enable these tweaks. Tooltips explain trade-offs.
+---
 
-4. Restore Apps
+### 4. Restore Apps
+- Restore all removed built-in apps easily.
+- Safe and simple — no PowerShell knowledge required.
 
-Easily restore all built-in apps if you accidentally remove something important.
+---
 
-Safe and simple, no need for advanced PowerShell commands.
+### 5. Tooltips & Guidance
+- Every option includes a **hover tooltip** describing its purpose and safety.
+- Designed for **beginners**, so you don’t need prior Windows tweaking experience.
 
-5. Tooltips & Guidance
+---
 
-Every option includes a hover tooltip describing its function and safety.
+### 6. User-Friendly GUI
+- Organized into three tabs:
+  1. Apps
+  2. Services
+  3. Performance Tweaks
+- Buttons for **Run Debloat** and **Restore Apps**.
+- Optional **Recommended Preset** functionality can be added for quick safe selections.
 
-Designed for beginners, so no prior Windows tweaking experience is required.
+---
 
-6. User-Friendly GUI
+## ⚙️ Requirements
 
-Organized into three tabs: Apps, Services, Performance Tweaks.
+- Windows 11  
+- **Python 3.x**  
+- Tkinter (`pip install tk`)  
+- Must be run with **administrator privileges** to remove system apps or disable services.
 
-Simple checkboxes with explanatory tooltips.
+---
 
-Buttons for "Run Debloat" and "Restore Apps".
+## 🚀 How to Use
 
-Optional “Recommended Preset” functionality can be added for quick safe selections.
-
-
-
-⚙️ Requirements
-
-Windows 11
-
-Python 3.x
-
-Tkinter (pip install tk)
-
-Must be run with administrator privileges to remove apps or disable system services.
-
-
-
-🚀 How to Use
-
-Download or clone this repository.
-
-Run python debloater.py (or whatever you name the script).
-
-Select the apps, services, and performance tweaks you want to remove or apply.
-
-Hover over each checkbox to read what it does and see if it’s safe.
-
-Click Run Debloat to apply your selections.
-
-Restart your PC for all changes to take effect.
-
-If you need to restore apps, click Restore Apps.
-
-
-
-⚠️ Warnings
-
-Must run as administrator to fully remove system apps and disable services.
-
-Some apps or services may be needed depending on your personal workflow. Tooltips provide guidance.
-
-Performance tweaks are optional; they improve responsiveness but may alter the visual experience or search speed.
-
-
-
-💡 Why Use This Tool?
-
-Saves disk space by removing unneeded apps.
-
-Improves privacy by disabling telemetry services.
-
-Boosts system performance by turning off animations and indexing.
-
-Safe for beginners, with detailed tooltips and the ability to restore apps.
-
-No scripts or PowerShell knowledge required — simple GUI workflow.
-
-
+1. **Download or clone** this repository.  
+2. Run the script:  
+   ```bash
+   python debloater.py
