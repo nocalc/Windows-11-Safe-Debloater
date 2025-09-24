@@ -74,4 +74,4 @@ Optional performance improvements:
 1. **Download or clone** this repository.  
 2. Run the script:  
    ```bash
-   python debloater.py
+   python bloatremover11.py
