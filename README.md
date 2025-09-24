@@ -49,6 +49,8 @@ Buttons for "Run Debloat" and "Restore Apps".
 
 Optional “Recommended Preset” functionality can be added for quick safe selections.
 
+
+
 ⚙️ Requirements
 
 Windows 11
@@ -58,6 +60,8 @@ Python 3.x
 Tkinter (pip install tk)
 
 Must be run with administrator privileges to remove apps or disable system services.
+
+
 
 🚀 How to Use
 
@@ -75,6 +79,8 @@ Restart your PC for all changes to take effect.
 
 If you need to restore apps, click Restore Apps.
 
+
+
 ⚠️ Warnings
 
 Must run as administrator to fully remove system apps and disable services.
@@ -82,6 +88,8 @@ Must run as administrator to fully remove system apps and disable services.
 Some apps or services may be needed depending on your personal workflow. Tooltips provide guidance.
 
 Performance tweaks are optional; they improve responsiveness but may alter the visual experience or search speed.
+
+
 
 💡 Why Use This Tool?
 
@@ -95,10 +103,4 @@ Safe for beginners, with detailed tooltips and the ability to restore apps.
 
 No scripts or PowerShell knowledge required — simple GUI workflow.
 
-🛠️ Future Enhancements
 
-Add a Recommended Preset button for quick safe debloat.
-
-Add a backup/restore profile system for multiple user configurations.
-
-Expand tooltips with links to official Microsoft documentation.
